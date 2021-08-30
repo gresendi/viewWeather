@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+    
+    <div class="container-md  " style="justify-content:center;">
+      <a class="navbar-brand"  href="#">Weather Dashboard</a>
+    </div>
+    
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h4>Search for a city:</h4>
+        <form class="row g-3 mb-2">
+        <div class="input-group w-75">
+         
+          <input type="text" class="form-control" placeholder="Enter City" aria-label="Input group example"
+            aria-describedby="basic-addon1" id='city'>
+            <span class="input-group-text btn-primary" id="searchBtn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                </path>
+              </svg>
+            </span>
+        </div>
+          
+        </form>
+
+
+        <div id = "cityList" class="list-group">
+         
+        </div>
+
+
+
+
+        
+
+        
+
+
+
+
+
+
+      </div>
+      <div class="col-8">
+        Column
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src ="app.js"></script>
+</body>
+</html>
